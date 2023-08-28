@@ -1,0 +1,52 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Establece la fuente de texto */
+    background-color: rgb(255, 155, 24); /* Establece el color de fondo */
+}
+
+/* Estilos para la tarjeta */
+.card {
+    width: 500px; /* Ancho de la tarjeta */
+    height: 300px; /* Altura de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 50px 20px 0 20px; /* Relleno interno */
+    box-sizing: border-box; /* Modelo de caja */
+    background: rgb(0, 114, 255); /* Fondo degradado */
+    background: radial-gradient(
+      circle,
+      rgba(0, 114, 255, 1) 1%,
+      rgba(33, 25, 173, 1) 100%
+    ); /* Degradado radial de fondo */
+    margin: 100px auto; /* Margen para centrar verticalmente */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra de la tarjeta */
+}
+
+/* Estilos para los campos de entrada dentro de la tarjeta */
+.card input {
+    font-size: 28px; /* Tamaño de fuente */
+    padding: 10px; /* Espacio interno */
+    border: solid 1px rgb(45, 154, 226); /* Borde sólido con color */
+    color: white; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: transparent; /* Fondo transparente */
+    margin: 5px 0; /* Margen vertical */
+    outline: none; /* Elimina el contorno al hacer clic */
+}
+  
+/* Estilos para el elemento con clase "holder" */
+.holder {
+    color: white; /* Color del texto */
+    font-weight: bold; /* Grosor de la fuente */
+    font-size: 28px; /* Tamaño de fuente */
+    padding-top: 50px; /* Espacio superior interno */
+}
+
+/* Estilos para el campo de fecha de la tarjeta */
+.card #inputDate {
+    width: 70px; /* Ancho del campo */
+}
+
+/* Estilos para el campo de CVV de la tarjeta */
+.card #inputCVV {
+    width: 50px; /* Ancho del campo */
+}
